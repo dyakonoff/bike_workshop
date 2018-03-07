@@ -12,10 +12,13 @@
         <property name="client"
                   view="_minimal"/>
         <property name="mechanic"
-                  view="_minimal"/>
+                  view="_minimal">
+            <property name="hourlyRate"/>
+        </property>
         <property name="parts"
                   view="_minimal">
             <property name="description"/>
+            <property name="price"/>
         </property>
     </view>
 </views>

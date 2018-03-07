@@ -48,6 +48,9 @@
                         action="ordersTable.edit"/>
                 <button id="removeBtn"
                         action="ordersTable.remove"/>
+                <button id="newStatusBtn"
+                        caption="Set as New"
+                        invoke="onNewStatusBtnClick"/>
             </buttonsPanel>
         </groupTable>
     </layout>
